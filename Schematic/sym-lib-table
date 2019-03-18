@@ -6,4 +6,6 @@
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Type-C.pretty-master/Type-C.lib)(options "")(descr ""))
   (lib (name ws2812b)(type Legacy)(uri ${KIPRJMOD}/WS2812B.pretty-master/Schematic-Symbol/ws2812b.lib)(options "")(descr ""))
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/ProMicroKiCad-master/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name ARDUINO_MICRO)(type Legacy)(uri ${KIPRJMOD}/Arduino_micro-master/ARDUINO_MICRO.lib)(options "")(descr ""))
+  (lib (name 1N4148)(type Legacy)(uri ${KIPRJMOD}/1n4148/Lib/1N4148.lib)(options "")(descr ""))
 )

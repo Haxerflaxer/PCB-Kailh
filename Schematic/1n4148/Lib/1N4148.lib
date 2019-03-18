@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1N4148
+#
+DEF 1N4148 D 0 40 N N 1 L N
+F0 "D" -150 69 50 H V L BNN
+F1 "1N4148" -150 -141 50 H V L BNN
+F2 "DIOAD829W49L456D191" 0 0 50 H I L BNN
+F3 "MICROSS/On Semiconductor" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" 0 0 50 H I L BNN
+F6 "Unavailable" 0 0 50 H I L BNN
+F7 "1N4148" 0 0 50 H I L BNN
+F8 "DO-35 Vishay" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -50 -50 50 0 N
+P 2 0 0 10 50 0 -50 50 N
+P 2 0 0 10 50 50 50 0 N
+P 2 0 0 10 -50 50 -50 0 N
+P 2 0 0 10 -50 0 -50 -50 N
+P 2 0 0 10 50 0 50 -50 N
+P 2 0 0 10 -100 0 -50 0 N
+P 2 0 0 10 50 0 100 0 N
+X A A -200 0 100 R 40 40 0 0 P 
+X C C 200 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

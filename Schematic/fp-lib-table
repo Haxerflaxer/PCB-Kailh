@@ -8,4 +8,6 @@
   (lib (name WS2812B)(type KiCad)(uri ${KIPRJMOD}/WS2812B.pretty-master)(options "")(descr ""))
   (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/keyswitches.pretty-master)(options "")(descr ""))
   (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad-master/promicro.pretty)(options "")(descr ""))
+  (lib (name Arduino_micro-master)(type KiCad)(uri ${KIPRJMOD}/Arduino_micro-master)(options "")(descr ""))
+  (lib (name mod)(type KiCad)(uri ${KIPRJMOD}/1n4148/mod)(options "")(descr ""))
 )

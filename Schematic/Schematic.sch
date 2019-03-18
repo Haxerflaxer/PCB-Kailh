@@ -1,4 +1,866 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 1N4148:1N4148 D12
+U 1 1 5C932CAE
+P 3700 4600
+F 0 "D12" H 3700 4817 50  0000 C CNN
+F 1 "1N4148" H 3700 4726 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3700 4600 50  0001 L BNN
+F 3 "" H 3700 4600 50  0001 L BNN
+F 4 "None" H 3700 4600 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3700 4600 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3700 4600 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3700 4600 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3700 4600 50  0001 L BNN "Field8"
+	1    3700 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D11
+U 1 1 5C932CB9
+P 3150 4600
+F 0 "D11" H 3150 4817 50  0000 C CNN
+F 1 "1N4148" H 3150 4726 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3150 4600 50  0001 L BNN
+F 3 "" H 3150 4600 50  0001 L BNN
+F 4 "None" H 3150 4600 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3150 4600 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3150 4600 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3150 4600 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3150 4600 50  0001 L BNN "Field8"
+	1    3150 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D10
+U 1 1 5C932CC4
+P 2600 4600
+F 0 "D10" H 2600 4817 50  0000 C CNN
+F 1 "1N4148" H 2600 4726 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2600 4600 50  0001 L BNN
+F 3 "" H 2600 4600 50  0001 L BNN
+F 4 "None" H 2600 4600 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2600 4600 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2600 4600 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2600 4600 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2600 4600 50  0001 L BNN "Field8"
+	1    2600 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D9
+U 1 1 5C932CCF
+P 2100 4600
+F 0 "D9" H 2100 4817 50  0000 C CNN
+F 1 "1N4148" H 2100 4726 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2100 4600 50  0001 L BNN
+F 3 "" H 2100 4600 50  0001 L BNN
+F 4 "None" H 2100 4600 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2100 4600 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2100 4600 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2100 4600 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2100 4600 50  0001 L BNN "Field8"
+	1    2100 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D16
+U 1 1 5C934EF0
+P 3650 5700
+F 0 "D16" H 3650 5917 50  0000 C CNN
+F 1 "1N4148" H 3650 5826 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3650 5700 50  0001 L BNN
+F 3 "" H 3650 5700 50  0001 L BNN
+F 4 "None" H 3650 5700 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3650 5700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 5700 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3650 5700 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3650 5700 50  0001 L BNN "Field8"
+	1    3650 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D15
+U 1 1 5C934EFB
+P 3100 5700
+F 0 "D15" H 3100 5917 50  0000 C CNN
+F 1 "1N4148" H 3100 5826 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3100 5700 50  0001 L BNN
+F 3 "" H 3100 5700 50  0001 L BNN
+F 4 "None" H 3100 5700 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3100 5700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3100 5700 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3100 5700 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3100 5700 50  0001 L BNN "Field8"
+	1    3100 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D14
+U 1 1 5C934F06
+P 2550 5700
+F 0 "D14" H 2550 5917 50  0000 C CNN
+F 1 "1N4148" H 2550 5826 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2550 5700 50  0001 L BNN
+F 3 "" H 2550 5700 50  0001 L BNN
+F 4 "None" H 2550 5700 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2550 5700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2550 5700 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2550 5700 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2550 5700 50  0001 L BNN "Field8"
+	1    2550 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D13
+U 1 1 5C934F11
+P 2050 5700
+F 0 "D13" H 2050 5917 50  0000 C CNN
+F 1 "1N4148" H 2050 5826 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2050 5700 50  0001 L BNN
+F 3 "" H 2050 5700 50  0001 L BNN
+F 4 "None" H 2050 5700 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2050 5700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2050 5700 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2050 5700 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2050 5700 50  0001 L BNN "Field8"
+	1    2050 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D20
+U 1 1 5C936C80
+P 3650 7000
+F 0 "D20" H 3650 7217 50  0000 C CNN
+F 1 "1N4148" H 3650 7126 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3650 7000 50  0001 L BNN
+F 3 "" H 3650 7000 50  0001 L BNN
+F 4 "None" H 3650 7000 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3650 7000 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 7000 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3650 7000 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3650 7000 50  0001 L BNN "Field8"
+	1    3650 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D19
+U 1 1 5C936C8B
+P 3100 7000
+F 0 "D19" H 3100 7217 50  0000 C CNN
+F 1 "1N4148" H 3100 7126 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3100 7000 50  0001 L BNN
+F 3 "" H 3100 7000 50  0001 L BNN
+F 4 "None" H 3100 7000 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3100 7000 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3100 7000 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3100 7000 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3100 7000 50  0001 L BNN "Field8"
+	1    3100 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D18
+U 1 1 5C936C96
+P 2550 7000
+F 0 "D18" H 2550 7217 50  0000 C CNN
+F 1 "1N4148" H 2550 7126 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2550 7000 50  0001 L BNN
+F 3 "" H 2550 7000 50  0001 L BNN
+F 4 "None" H 2550 7000 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2550 7000 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2550 7000 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2550 7000 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2550 7000 50  0001 L BNN "Field8"
+	1    2550 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D17
+U 1 1 5C936CA1
+P 2050 7000
+F 0 "D17" H 2050 7217 50  0000 C CNN
+F 1 "1N4148" H 2050 7126 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2050 7000 50  0001 L BNN
+F 3 "" H 2050 7000 50  0001 L BNN
+F 4 "None" H 2050 7000 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2050 7000 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2050 7000 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2050 7000 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2050 7000 50  0001 L BNN "Field8"
+	1    2050 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 4800 2600 4800
+Wire Wire Line
+	2600 4800 3150 4800
+Connection ~ 2600 4800
+Wire Wire Line
+	3150 4800 3700 4800
+Connection ~ 3150 4800
+Wire Wire Line
+	2050 5900 2550 5900
+Wire Wire Line
+	2550 5900 3100 5900
+Connection ~ 2550 5900
+Wire Wire Line
+	3100 5900 3650 5900
+Connection ~ 3100 5900
+Wire Wire Line
+	2050 7200 2550 7200
+Wire Wire Line
+	2550 7200 3100 7200
+Connection ~ 2550 7200
+Wire Wire Line
+	3100 7200 3650 7200
+Connection ~ 3100 7200
+$Comp
+L Switch:SW_MEC_5G_LED SW1
+U 1 1 5C9465DE
+P 2200 1250
+F 0 "SW1" H 2200 1635 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2200 1544 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2200 1550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2200 1550 50  0001 C CNN
+	1    2200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW2
+U 1 1 5C948453
+P 2800 1250
+F 0 "SW2" H 2800 1635 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2800 1544 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2800 1550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2800 1550 50  0001 C CNN
+	1    2800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW3
+U 1 1 5C948C81
+P 3550 1250
+F 0 "SW3" H 3550 1635 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 3550 1544 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 3550 1550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3550 1550 50  0001 C CNN
+	1    3550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW4
+U 1 1 5C94920C
+P 4250 1250
+F 0 "SW4" H 4250 1635 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 4250 1544 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 4250 1550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4250 1550 50  0001 C CNN
+	1    4250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW9
+U 1 1 5C94E9EF
+P 2200 4100
+F 0 "SW9" H 2200 4485 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2200 4394 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2200 4400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2200 4400 50  0001 C CNN
+	1    2200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW10
+U 1 1 5C94E9F5
+P 2800 4100
+F 0 "SW10" H 2800 4485 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2800 4394 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2800 4400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2800 4400 50  0001 C CNN
+	1    2800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW11
+U 1 1 5C94E9FB
+P 3550 4100
+F 0 "SW11" H 3550 4485 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 3550 4394 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 3550 4400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3550 4400 50  0001 C CNN
+	1    3550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW12
+U 1 1 5C94EA01
+P 4250 4100
+F 0 "SW12" H 4250 4485 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 4250 4394 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 4250 4400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4250 4400 50  0001 C CNN
+	1    4250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW13
+U 1 1 5C95040A
+P 2100 5300
+F 0 "SW13" H 2100 5685 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2100 5594 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2100 5600 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2100 5600 50  0001 C CNN
+	1    2100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW14
+U 1 1 5C950410
+P 2700 5300
+F 0 "SW14" H 2700 5685 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2700 5594 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2700 5600 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2700 5600 50  0001 C CNN
+	1    2700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW15
+U 1 1 5C950416
+P 3550 5300
+F 0 "SW15" H 3550 5685 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 3550 5594 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 3550 5600 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3550 5600 50  0001 C CNN
+	1    3550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW16
+U 1 1 5C95041C
+P 4250 5300
+F 0 "SW16" H 4250 5685 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 4250 5594 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 4250 5600 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4250 5600 50  0001 C CNN
+	1    4250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW17
+U 1 1 5C9515E7
+P 2100 6600
+F 0 "SW17" H 2100 6985 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2100 6894 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2100 6900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2100 6900 50  0001 C CNN
+	1    2100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW18
+U 1 1 5C9515ED
+P 2700 6600
+F 0 "SW18" H 2700 6985 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2700 6894 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2700 6900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2700 6900 50  0001 C CNN
+	1    2700 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW19
+U 1 1 5C9515F3
+P 3550 6600
+F 0 "SW19" H 3550 6985 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 3550 6894 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 3550 6900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3550 6900 50  0001 C CNN
+	1    3550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW20
+U 1 1 5C9515F9
+P 4250 6600
+F 0 "SW20" H 4250 6985 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 4250 6894 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 4250 6900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4250 6900 50  0001 C CNN
+	1    4250 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2000 3750 2000
+$Comp
+L 1N4148:1N4148 D3
+U 1 1 5C93BE4B
+P 3200 1800
+F 0 "D3" H 3200 2017 50  0000 C CNN
+F 1 "1N4148" H 3200 1926 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3200 1800 50  0001 L BNN
+F 3 "" H 3200 1800 50  0001 L BNN
+F 4 "None" H 3200 1800 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3200 1800 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3200 1800 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3200 1800 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3200 1800 50  0001 L BNN "Field8"
+	1    3200 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D4
+U 1 1 5C93BE40
+P 3750 1800
+F 0 "D4" H 3750 2017 50  0000 C CNN
+F 1 "1N4148" H 3750 1926 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3750 1800 50  0001 L BNN
+F 3 "" H 3750 1800 50  0001 L BNN
+F 4 "None" H 3750 1800 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3750 1800 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3750 1800 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3750 1800 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3750 1800 50  0001 L BNN "Field8"
+	1    3750 1800
+	0    1    1    0   
+$EndComp
+Connection ~ 3150 3400
+Wire Wire Line
+	3150 3400 3700 3400
+Connection ~ 2600 3400
+Wire Wire Line
+	2600 3400 3150 3400
+Wire Wire Line
+	2100 3400 2600 3400
+$Comp
+L Switch:SW_MEC_5G_LED SW6
+U 1 1 5C94C648
+P 4250 2700
+F 0 "SW6" H 4250 3085 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 4250 2994 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 4250 3000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4250 3000 50  0001 C CNN
+	1    4250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW5
+U 1 1 5C94C642
+P 3550 2700
+F 0 "SW5" H 3550 3085 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 3550 2994 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 3550 3000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3550 3000 50  0001 C CNN
+	1    3550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW8
+U 1 1 5C94C63C
+P 2800 2750
+F 0 "SW8" H 2800 3135 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2800 3044 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2800 3050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2800 3050 50  0001 C CNN
+	1    2800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G_LED SW7
+U 1 1 5C94C636
+P 2200 2750
+F 0 "SW7" H 2200 3135 50  0000 C CNN
+F 1 "SW_MEC_5G_LED" H 2200 3044 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_optional" H 2200 3050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2200 3050 50  0001 C CNN
+	1    2200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1N4148:1N4148 D5
+U 1 1 5C92482E
+P 2100 3200
+F 0 "D5" H 2100 3417 50  0000 C CNN
+F 1 "1N4148" H 2100 3326 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2100 3200 50  0001 L BNN
+F 3 "" H 2100 3200 50  0001 L BNN
+F 4 "None" H 2100 3200 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2100 3200 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2100 3200 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2100 3200 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2100 3200 50  0001 L BNN "Field8"
+	1    2100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D6
+U 1 1 5C921C51
+P 2600 3200
+F 0 "D6" H 2600 3417 50  0000 C CNN
+F 1 "1N4148" H 2600 3326 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2600 3200 50  0001 L BNN
+F 3 "" H 2600 3200 50  0001 L BNN
+F 4 "None" H 2600 3200 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2600 3200 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2600 3200 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2600 3200 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2600 3200 50  0001 L BNN "Field8"
+	1    2600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D7
+U 1 1 5C920D57
+P 3150 3200
+F 0 "D7" H 3150 3417 50  0000 C CNN
+F 1 "1N4148" H 3150 3326 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3150 3200 50  0001 L BNN
+F 3 "" H 3150 3200 50  0001 L BNN
+F 4 "None" H 3150 3200 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3150 3200 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3150 3200 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3150 3200 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3150 3200 50  0001 L BNN "Field8"
+	1    3150 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D8
+U 1 1 5C91FC7D
+P 3700 3200
+F 0 "D8" H 3700 3417 50  0000 C CNN
+F 1 "1N4148" H 3700 3326 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 3700 3200 50  0001 L BNN
+F 3 "" H 3700 3200 50  0001 L BNN
+F 4 "None" H 3700 3200 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 3700 3200 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3700 3200 50  0001 L BNN "Field6"
+F 7 "1N4148" H 3700 3200 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 3700 3200 50  0001 L BNN "Field8"
+	1    3700 3200
+	0    1    1    0   
+$EndComp
+Connection ~ 3200 2000
+$Comp
+L 1N4148:1N4148 D2
+U 1 1 5C93BE56
+P 2650 1800
+F 0 "D2" H 2650 2017 50  0000 C CNN
+F 1 "1N4148" H 2650 1926 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2650 1800 50  0001 L BNN
+F 3 "" H 2650 1800 50  0001 L BNN
+F 4 "None" H 2650 1800 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2650 1800 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2650 1800 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2650 1800 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2650 1800 50  0001 L BNN "Field8"
+	1    2650 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L 1N4148:1N4148 D1
+U 1 1 5C93BE61
+P 2150 1800
+F 0 "D1" H 2150 2017 50  0000 C CNN
+F 1 "1N4148" H 2150 1926 50  0000 C CNN
+F 2 "DIOAD829W49L456D191" H 2150 1800 50  0001 L BNN
+F 3 "" H 2150 1800 50  0001 L BNN
+F 4 "None" H 2150 1800 50  0001 L BNN "Field4"
+F 5 "Diode Small Signal Switching 100V 0.3A 2-Pin DO-35" H 2150 1800 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2150 1800 50  0001 L BNN "Field6"
+F 7 "1N4148" H 2150 1800 50  0001 L BNN "Field7"
+F 8 "DO-35 Vishay" H 2150 1800 50  0001 L BNN "Field8"
+	1    2150 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2000 2650 2000
+Wire Wire Line
+	2650 2000 3200 2000
+Connection ~ 2650 2000
+Wire Wire Line
+	2300 6500 2300 5400
+Wire Wire Line
+	2300 5400 2400 5400
+Wire Wire Line
+	2400 5400 2400 5200
+Wire Wire Line
+	2400 5200 2300 5200
+Wire Wire Line
+	2300 5200 2300 4200
+Wire Wire Line
+	2300 4200 2500 4200
+Wire Wire Line
+	2500 4200 2500 4000
+Wire Wire Line
+	2500 4000 2400 4000
+Connection ~ 2300 5200
+Wire Wire Line
+	2400 4000 2400 2850
+Wire Wire Line
+	2400 2850 2500 2850
+Wire Wire Line
+	2500 2850 2500 2650
+Wire Wire Line
+	2500 2650 2400 2650
+Connection ~ 2400 4000
+Wire Wire Line
+	2400 2650 2400 1350
+Wire Wire Line
+	2400 1350 2500 1350
+Wire Wire Line
+	2500 1350 2500 1150
+Wire Wire Line
+	2500 1150 2400 1150
+Connection ~ 2400 2650
+Wire Wire Line
+	3000 1150 3100 1150
+Wire Wire Line
+	3100 1150 3100 1350
+Wire Wire Line
+	3100 1350 3000 1350
+Wire Wire Line
+	3000 1350 3000 2650
+Wire Wire Line
+	3000 2650 3100 2650
+Wire Wire Line
+	3100 2650 3100 2850
+Wire Wire Line
+	3100 2850 3000 2850
+Wire Wire Line
+	3000 2850 3000 4000
+Connection ~ 3000 2650
+Wire Wire Line
+	3100 4000 3100 4200
+Wire Wire Line
+	3100 4200 3000 4200
+Wire Wire Line
+	3000 4200 3000 5200
+Wire Wire Line
+	3000 5200 2900 5200
+Wire Wire Line
+	3000 6500 2900 6500
+Wire Wire Line
+	3750 6500 3750 5400
+Wire Wire Line
+	3750 5400 3850 5400
+Wire Wire Line
+	3850 5400 3850 5200
+Wire Wire Line
+	3850 5200 3750 5200
+Wire Wire Line
+	3750 5200 3750 4950
+Wire Wire Line
+	3750 4950 3850 4950
+Wire Wire Line
+	3850 4950 3850 4000
+Wire Wire Line
+	3850 4000 3750 4000
+Connection ~ 3750 5200
+Wire Wire Line
+	3750 3650 3850 3650
+Wire Wire Line
+	3850 3650 3850 2600
+Wire Wire Line
+	3850 2600 3750 2600
+Wire Wire Line
+	4450 6500 4450 5450
+Wire Wire Line
+	4450 5450 4550 5450
+Wire Wire Line
+	4550 5450 4550 5200
+Wire Wire Line
+	4550 5200 4450 5200
+Wire Wire Line
+	4450 5200 4450 4200
+Wire Wire Line
+	4450 4200 4550 4200
+Wire Wire Line
+	4550 4200 4550 4000
+Wire Wire Line
+	4550 4000 4450 4000
+Connection ~ 4450 5200
+Wire Wire Line
+	4450 4000 4450 2850
+Wire Wire Line
+	4450 2850 4600 2850
+Wire Wire Line
+	4600 2850 4600 2600
+Wire Wire Line
+	4600 2600 4450 2600
+Connection ~ 4450 4000
+Wire Wire Line
+	4450 2600 4450 1400
+Wire Wire Line
+	4450 1400 4550 1400
+Wire Wire Line
+	4550 1400 4550 1150
+Wire Wire Line
+	4550 1150 4450 1150
+Connection ~ 4450 2600
+Wire Wire Line
+	3700 2600 3700 2250
+Wire Wire Line
+	3700 2250 4000 2250
+Wire Wire Line
+	4000 2250 4000 1500
+Wire Wire Line
+	4000 1500 3850 1500
+Wire Wire Line
+	3850 1500 3850 1150
+Wire Wire Line
+	3850 1150 3750 1150
+Wire Wire Line
+	3750 2600 3700 2600
+Connection ~ 3750 2600
+Wire Wire Line
+	3000 5200 3000 6500
+Connection ~ 3000 5200
+Wire Wire Line
+	2000 1150 1850 1150
+Wire Wire Line
+	1850 1150 1850 1600
+Wire Wire Line
+	1850 1600 2150 1600
+Wire Wire Line
+	2600 1150 2550 1150
+Wire Wire Line
+	2550 1150 2550 1600
+Wire Wire Line
+	2550 1600 2650 1600
+Wire Wire Line
+	3350 1150 3200 1150
+Wire Wire Line
+	3200 1150 3200 1600
+Wire Wire Line
+	4050 1150 3900 1150
+Wire Wire Line
+	3900 1150 3900 1550
+Wire Wire Line
+	3900 1550 3750 1550
+Wire Wire Line
+	3750 1550 3750 1600
+Wire Wire Line
+	2000 2650 1850 2650
+Wire Wire Line
+	1850 2650 1850 3000
+Wire Wire Line
+	1850 3000 2100 3000
+Wire Wire Line
+	2600 2650 2550 2650
+Wire Wire Line
+	2550 2650 2550 3000
+Wire Wire Line
+	2550 3000 2600 3000
+Wire Wire Line
+	3350 2600 3250 2600
+Wire Wire Line
+	3250 2600 3250 3000
+Wire Wire Line
+	3250 3000 3150 3000
+Wire Wire Line
+	4050 2600 3950 2600
+Wire Wire Line
+	3950 2600 3950 3000
+Wire Wire Line
+	3950 3000 3700 3000
+Wire Wire Line
+	2000 4000 1850 4000
+Wire Wire Line
+	1850 4000 1850 4400
+Wire Wire Line
+	1850 4400 2100 4400
+Wire Wire Line
+	2600 4000 2550 4000
+Wire Wire Line
+	2550 4000 2550 4400
+Wire Wire Line
+	2550 4400 2600 4400
+Wire Wire Line
+	3350 4000 3250 4000
+Wire Wire Line
+	3250 4000 3250 4400
+Wire Wire Line
+	3250 4400 3150 4400
+Wire Wire Line
+	4050 4000 3950 4000
+Wire Wire Line
+	3950 4000 3950 4400
+Wire Wire Line
+	3950 4400 3700 4400
+Wire Wire Line
+	1900 5200 1800 5200
+Wire Wire Line
+	1800 5200 1800 5500
+Wire Wire Line
+	1800 5500 2050 5500
+Wire Wire Line
+	2500 5200 2450 5200
+Wire Wire Line
+	2450 5200 2450 5500
+Wire Wire Line
+	2450 5500 2550 5500
+Wire Wire Line
+	3350 5200 3100 5200
+Wire Wire Line
+	3100 5200 3100 5500
+Wire Wire Line
+	4050 5200 3950 5200
+Wire Wire Line
+	3950 5200 3950 5500
+Wire Wire Line
+	3950 5500 3650 5500
+Wire Wire Line
+	1900 6500 1750 6500
+Wire Wire Line
+	1750 6500 1750 6800
+Wire Wire Line
+	1750 6800 2050 6800
+Wire Wire Line
+	2500 6500 2450 6500
+Wire Wire Line
+	2450 6500 2450 6800
+Wire Wire Line
+	2450 6800 2550 6800
+Wire Wire Line
+	3350 6500 3100 6500
+Wire Wire Line
+	3100 6500 3100 6800
+Wire Wire Line
+	4050 6500 3900 6500
+Wire Wire Line
+	3900 6500 3900 6800
+Wire Wire Line
+	3900 6800 3650 6800
+$Comp
+L ARDUINO_MICRO:ARDUINO_MICRO PCB1
+U 1 1 5C9E7F78
+P 7000 3800
+F 0 "PCB1" H 7000 3800 50  0001 L BNN
+F 1 "ARDUINO_MICRO" H 7000 3800 50  0001 L BNN
+F 2 "Keebio-Parts:Teensy_2.0" H 7000 3800 50  0001 L BNN
+F 3 "" H 7000 3800 50  0001 L BNN
+F 4 "None" H 7000 3800 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 7000 3800 50  0001 L BNN "Field5"
+F 6 "None" H 7000 3800 50  0001 L BNN "Field6"
+F 7 "Arduino" H 7000 3800 50  0001 L BNN "Field7"
+F 8 "Dev.kit: Arduino; ICSP, USB B micro, pin strips; Comp: ATMEGA32U4" H 7000 3800 50  0001 L BNN "Field8"
+	1    7000 3800
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
