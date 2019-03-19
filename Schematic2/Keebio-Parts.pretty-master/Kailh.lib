@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Kailhlowprofile
+#
+DEF Kailhlowprofile U 0 40 Y Y 1 F N
+F0 "U" -395 810 50 H V C CNN
+F1 "Kailhlowprofile" -365 -150 50 H V C CNN
+F2 "" -345 810 50 H I C CNN
+F3 "" -345 810 50 H I C CNN
+DRAW
+S -750 250 0 -350 0 1 0 N
+X + 1 -850 -50 100 R 50 50 1 1 I
+X - 2 100 -50 100 L 50 50 1 1 I
+X led+ 3 -550 350 100 D 50 50 1 1 I
+X led- 4 -150 350 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
