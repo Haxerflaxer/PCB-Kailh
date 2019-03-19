@@ -1,4 +1,4 @@
-16443326984350137
+16441787006567723
 1N4148
 DIOAD829W49L456D191
 
@@ -6,13 +6,6 @@ DIOAD829W49L456D191
 0
 2
 2
-ARDUINO_MICRO
-ARDUINO_MICRO
-Footprint for representing an Arduino Micro board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle
-
-0
-45
-45
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)

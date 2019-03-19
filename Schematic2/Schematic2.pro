@@ -1,4 +1,4 @@
-update=2019-03-19 16:18:32
+update=03/19/19 23:32:41
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Schematic2.net
+LastNetListRead=Schematic3.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

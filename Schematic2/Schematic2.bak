@@ -121,36 +121,6 @@ F 8 "DO-35 Vishay" H 5500 1750 50  0001 L BNN "Field8"
 	1    5500 1750
 	0    1    1    0   
 $EndComp
-$Comp
-L ARDUINO_MICRO:ARDUINO_MICRO PCB2
-U 1 1 5C93A091
-P 8850 2200
-F 0 "PCB2" H 8850 2200 50  0001 L BNN
-F 1 "ARDUINO_MICRO" H 8850 2200 50  0001 L BNN
-F 2 "ARDUINO_MICRO:ARDUINO_MICRO" H 8850 2200 50  0001 L BNN
-F 3 "" H 8850 2200 50  0001 L BNN
-F 4 "None" H 8850 2200 50  0001 L BNN "Field4"
-F 5 "Unavailable" H 8850 2200 50  0001 L BNN "Field5"
-F 6 "None" H 8850 2200 50  0001 L BNN "Field6"
-F 7 "Arduino" H 8850 2200 50  0001 L BNN "Field7"
-F 8 "Dev.kit: Arduino; ICSP, USB B micro, pin strips; Comp: ATMEGA32U4" H 8850 2200 50  0001 L BNN "Field8"
-	1    8850 2200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7800 1950 7800 1500
-Wire Wire Line
-	7800 1500 8150 1500
-Wire Wire Line
-	7900 3300 7900 1600
-Wire Wire Line
-	7900 1600 8150 1600
-Wire Wire Line
-	7950 1700 8150 1700
-Wire Wire Line
-	8000 1800 8150 1800
-Wire Wire Line
-	8050 1900 8150 1900
 Wire Wire Line
 	650  1950 2000 1950
 Connection ~ 2000 1950
@@ -159,9 +129,6 @@ Wire Wire Line
 Connection ~ 3750 1950
 Wire Wire Line
 	3750 1950 5500 1950
-Connection ~ 5500 1950
-Wire Wire Line
-	5500 1950 7800 1950
 Wire Wire Line
 	650  1200 650  1550
 Wire Wire Line
@@ -177,10 +144,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 1250 5500 1550
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U1
 U 1 1 5CABEE80
 P 1500 2500
-F 0 "U?" H 1125 2077 50  0000 C CNN
+F 0 "U1" H 1125 2077 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 1986 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 2570 50  0001 C CNN
 F 3 "" H 1165 2570 50  0001 C CNN
@@ -188,10 +155,10 @@ F 3 "" H 1165 2570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U6
 U 1 1 5CABEE86
 P 3100 2500
-F 0 "U?" H 3258 2558 50  0000 L CNN
+F 0 "U6" H 3258 2558 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 2467 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 2570 50  0001 C CNN
 F 3 "" H 2765 2570 50  0001 C CNN
@@ -199,10 +166,10 @@ F 3 "" H 2765 2570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U11
 U 1 1 5CABEE8C
 P 4850 2500
-F 0 "U?" H 5008 2558 50  0000 L CNN
+F 0 "U11" H 5008 2558 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 2467 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 2570 50  0001 C CNN
 F 3 "" H 4515 2570 50  0001 C CNN
@@ -210,10 +177,10 @@ F 3 "" H 4515 2570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U16
 U 1 1 5CABEE92
 P 6650 2550
-F 0 "U?" H 6808 2608 50  0000 L CNN
+F 0 "U16" H 6808 2608 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 2517 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 2620 50  0001 C CNN
 F 3 "" H 6315 2620 50  0001 C CNN
@@ -221,10 +188,10 @@ F 3 "" H 6315 2620 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D1
 U 1 1 5CABEE9D
 P 650 3100
-F 0 "D?" H 650 3317 50  0000 C CNN
+F 0 "D1" H 650 3317 50  0000 C CNN
 F 1 "1N4148" H 650 3226 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 650 3100 50  0001 L BNN
 F 3 "" H 650 3100 50  0001 L BNN
@@ -237,10 +204,10 @@ F 8 "DO-35 Vishay" H 650 3100 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D6
 U 1 1 5CABEEA8
 P 2000 3100
-F 0 "D?" H 2000 3317 50  0000 C CNN
+F 0 "D6" H 2000 3317 50  0000 C CNN
 F 1 "1N4148" H 2000 3226 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 2000 3100 50  0001 L BNN
 F 3 "" H 2000 3100 50  0001 L BNN
@@ -253,10 +220,10 @@ F 8 "DO-35 Vishay" H 2000 3100 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D11
 U 1 1 5CABEEB3
 P 3750 3100
-F 0 "D?" H 3750 3317 50  0000 C CNN
+F 0 "D11" H 3750 3317 50  0000 C CNN
 F 1 "1N4148" H 3750 3226 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 3750 3100 50  0001 L BNN
 F 3 "" H 3750 3100 50  0001 L BNN
@@ -269,10 +236,10 @@ F 8 "DO-35 Vishay" H 3750 3100 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D16
 U 1 1 5CABEEBE
 P 5500 3100
-F 0 "D?" H 5500 3317 50  0000 C CNN
+F 0 "D16" H 5500 3317 50  0000 C CNN
 F 1 "1N4148" H 5500 3226 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 5500 3100 50  0001 L BNN
 F 3 "" H 5500 3100 50  0001 L BNN
@@ -292,9 +259,6 @@ Wire Wire Line
 Connection ~ 3750 3300
 Wire Wire Line
 	3750 3300 5500 3300
-Connection ~ 5500 3300
-Wire Wire Line
-	5500 3300 7800 3300
 Wire Wire Line
 	650  2550 650  2900
 Wire Wire Line
@@ -310,10 +274,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 2600 5500 2900
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U3
 U 1 1 5CAC30F9
 P 1500 3850
-F 0 "U?" H 1125 3427 50  0000 C CNN
+F 0 "U3" H 1125 3427 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 3336 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 3920 50  0001 C CNN
 F 3 "" H 1165 3920 50  0001 C CNN
@@ -321,10 +285,10 @@ F 3 "" H 1165 3920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U8
 U 1 1 5CAC30FF
 P 3100 3850
-F 0 "U?" H 3258 3908 50  0000 L CNN
+F 0 "U8" H 3258 3908 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 3817 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 3920 50  0001 C CNN
 F 3 "" H 2765 3920 50  0001 C CNN
@@ -332,10 +296,10 @@ F 3 "" H 2765 3920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U13
 U 1 1 5CAC3105
 P 4850 3850
-F 0 "U?" H 5008 3908 50  0000 L CNN
+F 0 "U13" H 5008 3908 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 3817 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 3920 50  0001 C CNN
 F 3 "" H 4515 3920 50  0001 C CNN
@@ -343,10 +307,10 @@ F 3 "" H 4515 3920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U18
 U 1 1 5CAC310B
 P 6650 3900
-F 0 "U?" H 6808 3958 50  0000 L CNN
+F 0 "U18" H 6808 3958 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 3867 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 3970 50  0001 C CNN
 F 3 "" H 6315 3970 50  0001 C CNN
@@ -354,10 +318,10 @@ F 3 "" H 6315 3970 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D3
 U 1 1 5CAC3116
 P 650 4450
-F 0 "D?" H 650 4667 50  0000 C CNN
+F 0 "D3" H 650 4667 50  0000 C CNN
 F 1 "1N4148" H 650 4576 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 650 4450 50  0001 L BNN
 F 3 "" H 650 4450 50  0001 L BNN
@@ -370,10 +334,10 @@ F 8 "DO-35 Vishay" H 650 4450 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D8
 U 1 1 5CAC3121
 P 2000 4450
-F 0 "D?" H 2000 4667 50  0000 C CNN
+F 0 "D8" H 2000 4667 50  0000 C CNN
 F 1 "1N4148" H 2000 4576 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 2000 4450 50  0001 L BNN
 F 3 "" H 2000 4450 50  0001 L BNN
@@ -386,10 +350,10 @@ F 8 "DO-35 Vishay" H 2000 4450 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D13
 U 1 1 5CAC312C
 P 3750 4450
-F 0 "D?" H 3750 4667 50  0000 C CNN
+F 0 "D13" H 3750 4667 50  0000 C CNN
 F 1 "1N4148" H 3750 4576 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 3750 4450 50  0001 L BNN
 F 3 "" H 3750 4450 50  0001 L BNN
@@ -402,10 +366,10 @@ F 8 "DO-35 Vishay" H 3750 4450 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D18
 U 1 1 5CAC3137
 P 5500 4450
-F 0 "D?" H 5500 4667 50  0000 C CNN
+F 0 "D18" H 5500 4667 50  0000 C CNN
 F 1 "1N4148" H 5500 4576 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 5500 4450 50  0001 L BNN
 F 3 "" H 5500 4450 50  0001 L BNN
@@ -443,10 +407,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 3950 5500 4250
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U4
 U 1 1 5CAC9274
 P 1500 5200
-F 0 "U?" H 1125 4777 50  0000 C CNN
+F 0 "U4" H 1125 4777 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 4686 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 5270 50  0001 C CNN
 F 3 "" H 1165 5270 50  0001 C CNN
@@ -454,10 +418,10 @@ F 3 "" H 1165 5270 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U9
 U 1 1 5CAC927A
 P 3100 5200
-F 0 "U?" H 3258 5258 50  0000 L CNN
+F 0 "U9" H 3258 5258 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 5167 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 5270 50  0001 C CNN
 F 3 "" H 2765 5270 50  0001 C CNN
@@ -465,10 +429,10 @@ F 3 "" H 2765 5270 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U14
 U 1 1 5CAC9280
 P 4850 5200
-F 0 "U?" H 5008 5258 50  0000 L CNN
+F 0 "U14" H 5008 5258 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 5167 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 5270 50  0001 C CNN
 F 3 "" H 4515 5270 50  0001 C CNN
@@ -476,10 +440,10 @@ F 3 "" H 4515 5270 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U19
 U 1 1 5CAC9286
 P 6650 5250
-F 0 "U?" H 6808 5308 50  0000 L CNN
+F 0 "U19" H 6808 5308 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 5217 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 5320 50  0001 C CNN
 F 3 "" H 6315 5320 50  0001 C CNN
@@ -487,10 +451,10 @@ F 3 "" H 6315 5320 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D4
 U 1 1 5CAC9291
 P 650 5800
-F 0 "D?" H 650 6017 50  0000 C CNN
+F 0 "D4" H 650 6017 50  0000 C CNN
 F 1 "1N4148" H 650 5926 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 650 5800 50  0001 L BNN
 F 3 "" H 650 5800 50  0001 L BNN
@@ -503,10 +467,10 @@ F 8 "DO-35 Vishay" H 650 5800 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D9
 U 1 1 5CAC929C
 P 2000 5800
-F 0 "D?" H 2000 6017 50  0000 C CNN
+F 0 "D9" H 2000 6017 50  0000 C CNN
 F 1 "1N4148" H 2000 5926 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 2000 5800 50  0001 L BNN
 F 3 "" H 2000 5800 50  0001 L BNN
@@ -519,10 +483,10 @@ F 8 "DO-35 Vishay" H 2000 5800 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D14
 U 1 1 5CAC92A7
 P 3750 5800
-F 0 "D?" H 3750 6017 50  0000 C CNN
+F 0 "D14" H 3750 6017 50  0000 C CNN
 F 1 "1N4148" H 3750 5926 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 3750 5800 50  0001 L BNN
 F 3 "" H 3750 5800 50  0001 L BNN
@@ -535,10 +499,10 @@ F 8 "DO-35 Vishay" H 3750 5800 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D19
 U 1 1 5CAC92B2
 P 5500 5800
-F 0 "D?" H 5500 6017 50  0000 C CNN
+F 0 "D19" H 5500 6017 50  0000 C CNN
 F 1 "1N4148" H 5500 5926 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 5500 5800 50  0001 L BNN
 F 3 "" H 5500 5800 50  0001 L BNN
@@ -576,10 +540,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 5300 5500 5600
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U5
 U 1 1 5CACF3B2
 P 1500 6500
-F 0 "U?" H 1125 6077 50  0000 C CNN
+F 0 "U5" H 1125 6077 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 5986 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 6570 50  0001 C CNN
 F 3 "" H 1165 6570 50  0001 C CNN
@@ -587,10 +551,10 @@ F 3 "" H 1165 6570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U10
 U 1 1 5CACF3B8
 P 3100 6500
-F 0 "U?" H 3258 6558 50  0000 L CNN
+F 0 "U10" H 3258 6558 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 6467 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 6570 50  0001 C CNN
 F 3 "" H 2765 6570 50  0001 C CNN
@@ -598,10 +562,10 @@ F 3 "" H 2765 6570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U15
 U 1 1 5CACF3BE
 P 4850 6500
-F 0 "U?" H 5008 6558 50  0000 L CNN
+F 0 "U15" H 5008 6558 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 6467 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 6570 50  0001 C CNN
 F 3 "" H 4515 6570 50  0001 C CNN
@@ -609,10 +573,10 @@ F 3 "" H 4515 6570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kailh:Kailhlowprofile U?
+L Kailh:Kailhlowprofile U20
 U 1 1 5CACF3C4
 P 6650 6550
-F 0 "U?" H 6808 6608 50  0000 L CNN
+F 0 "U20" H 6808 6608 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 6517 50  0000 L CNN
 F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 6620 50  0001 C CNN
 F 3 "" H 6315 6620 50  0001 C CNN
@@ -620,10 +584,10 @@ F 3 "" H 6315 6620 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D5
 U 1 1 5CACF3CF
 P 650 7100
-F 0 "D?" H 650 7317 50  0000 C CNN
+F 0 "D5" H 650 7317 50  0000 C CNN
 F 1 "1N4148" H 650 7226 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 650 7100 50  0001 L BNN
 F 3 "" H 650 7100 50  0001 L BNN
@@ -636,10 +600,10 @@ F 8 "DO-35 Vishay" H 650 7100 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D10
 U 1 1 5CACF3DA
 P 2000 7100
-F 0 "D?" H 2000 7317 50  0000 C CNN
+F 0 "D10" H 2000 7317 50  0000 C CNN
 F 1 "1N4148" H 2000 7226 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 2000 7100 50  0001 L BNN
 F 3 "" H 2000 7100 50  0001 L BNN
@@ -652,10 +616,10 @@ F 8 "DO-35 Vishay" H 2000 7100 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D15
 U 1 1 5CACF3E5
 P 3750 7100
-F 0 "D?" H 3750 7317 50  0000 C CNN
+F 0 "D15" H 3750 7317 50  0000 C CNN
 F 1 "1N4148" H 3750 7226 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 3750 7100 50  0001 L BNN
 F 3 "" H 3750 7100 50  0001 L BNN
@@ -668,10 +632,10 @@ F 8 "DO-35 Vishay" H 3750 7100 50  0001 L BNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148:1N4148 D?
+L 1N4148:1N4148 D20
 U 1 1 5CACF3F0
 P 5500 7100
-F 0 "D?" H 5500 7317 50  0000 C CNN
+F 0 "D20" H 5500 7317 50  0000 C CNN
 F 1 "1N4148" H 5500 7226 50  0000 C CNN
 F 2 "1N4148:DIOAD829W49L456D191" H 5500 7100 50  0001 L BNN
 F 3 "" H 5500 7100 50  0001 L BNN
@@ -788,4 +752,56 @@ Wire Wire Line
 	9700 1700 9450 1700
 Wire Wire Line
 	9450 1800 9700 1800
+Connection ~ 5500 3300
+Wire Wire Line
+	5500 3300 7800 3300
+$Comp
+L ARDUINO_MICRO:ARDUINO_MICRO PCB2
+U 1 1 5C93A091
+P 8850 2200
+F 0 "PCB2" H 8850 2200 50  0001 L BNN
+F 1 "ARDUINO_MICRO" H 8850 2200 50  0001 L BNN
+F 2 "ARDUINO_MICRO:ARDUINO_MICRO" H 8850 2200 50  0001 L BNN
+F 3 "" H 8850 2200 50  0001 L BNN
+F 4 "None" H 8850 2200 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 8850 2200 50  0001 L BNN "Field5"
+F 6 "None" H 8850 2200 50  0001 L BNN "Field6"
+F 7 "Arduino" H 8850 2200 50  0001 L BNN "Field7"
+F 8 "Dev.kit: Arduino; ICSP, USB B micro, pin strips; Comp: ATMEGA32U4" H 8850 2200 50  0001 L BNN "Field8"
+	1    8850 2200
+	0    1    1    0   
+$EndComp
+Connection ~ 5500 1950
+Wire Wire Line
+	5500 1950 7800 1950
+Text GLabel 7800 1950 2    50   Input Italic 0
+R1
+Text GLabel 7750 3300 2    50   Input Italic 0
+R2
+Text GLabel 7800 4650 2    50   Input Italic 0
+R3
+Text GLabel 7800 6000 2    50   Input Italic 0
+R4
+Text GLabel 7800 7300 2    50   Input Italic 0
+R5
+Text GLabel 8050 2700 0    50   Input Italic 0
+R1
+Text GLabel 8050 2800 0    50   Input Italic 0
+R2
+Text GLabel 8050 2900 0    50   Input Italic 0
+R3
+Text GLabel 8050 3000 0    50   Input Italic 0
+R4
+Text GLabel 8050 3100 0    50   Input Italic 0
+R5
+Wire Wire Line
+	8150 2700 8050 2700
+Wire Wire Line
+	8150 2800 8050 2800
+Wire Wire Line
+	8150 2900 8050 2900
+Wire Wire Line
+	8150 3000 8050 3000
+Wire Wire Line
+	8150 3100 8050 3100
 $EndSCHEMATC

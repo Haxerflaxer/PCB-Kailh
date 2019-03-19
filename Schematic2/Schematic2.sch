@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Schematic2-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5C9116F0
 P 1500 1150
 F 0 "U2" H 1125 727 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 636 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 1220 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 1165 1220 50  0001 C CNN
 F 3 "" H 1165 1220 50  0001 C CNN
 	1    1500 1150
 	1    0    0    -1  
@@ -30,7 +31,7 @@ U 1 1 5C9120CD
 P 3100 1150
 F 0 "U7" H 3258 1208 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 1117 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 1220 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 2765 1220 50  0001 C CNN
 F 3 "" H 2765 1220 50  0001 C CNN
 	1    3100 1150
 	1    0    0    -1  
@@ -41,7 +42,7 @@ U 1 1 5C9125DA
 P 4850 1150
 F 0 "U12" H 5008 1208 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 1117 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 1220 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 4515 1220 50  0001 C CNN
 F 3 "" H 4515 1220 50  0001 C CNN
 	1    4850 1150
 	1    0    0    -1  
@@ -52,7 +53,7 @@ U 1 1 5C91282C
 P 6650 1200
 F 0 "U17" H 6808 1258 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 1167 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 1270 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 6315 1270 50  0001 C CNN
 F 3 "" H 6315 1270 50  0001 C CNN
 	1    6650 1200
 	1    0    0    -1  
@@ -149,7 +150,7 @@ U 1 1 5CABEE80
 P 1500 2500
 F 0 "U1" H 1125 2077 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 1986 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 2570 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 1165 2570 50  0001 C CNN
 F 3 "" H 1165 2570 50  0001 C CNN
 	1    1500 2500
 	1    0    0    -1  
@@ -160,7 +161,7 @@ U 1 1 5CABEE86
 P 3100 2500
 F 0 "U6" H 3258 2558 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 2467 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 2570 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 2765 2570 50  0001 C CNN
 F 3 "" H 2765 2570 50  0001 C CNN
 	1    3100 2500
 	1    0    0    -1  
@@ -171,7 +172,7 @@ U 1 1 5CABEE8C
 P 4850 2500
 F 0 "U11" H 5008 2558 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 2467 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 2570 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 4515 2570 50  0001 C CNN
 F 3 "" H 4515 2570 50  0001 C CNN
 	1    4850 2500
 	1    0    0    -1  
@@ -182,7 +183,7 @@ U 1 1 5CABEE92
 P 6650 2550
 F 0 "U16" H 6808 2608 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 2517 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 2620 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 6315 2620 50  0001 C CNN
 F 3 "" H 6315 2620 50  0001 C CNN
 	1    6650 2550
 	1    0    0    -1  
@@ -279,7 +280,7 @@ U 1 1 5CAC30F9
 P 1500 3850
 F 0 "U3" H 1125 3427 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 3336 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 3920 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 1165 3920 50  0001 C CNN
 F 3 "" H 1165 3920 50  0001 C CNN
 	1    1500 3850
 	1    0    0    -1  
@@ -290,7 +291,7 @@ U 1 1 5CAC30FF
 P 3100 3850
 F 0 "U8" H 3258 3908 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 3817 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 3920 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 2765 3920 50  0001 C CNN
 F 3 "" H 2765 3920 50  0001 C CNN
 	1    3100 3850
 	1    0    0    -1  
@@ -301,7 +302,7 @@ U 1 1 5CAC3105
 P 4850 3850
 F 0 "U13" H 5008 3908 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 3817 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 3920 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 4515 3920 50  0001 C CNN
 F 3 "" H 4515 3920 50  0001 C CNN
 	1    4850 3850
 	1    0    0    -1  
@@ -312,7 +313,7 @@ U 1 1 5CAC310B
 P 6650 3900
 F 0 "U18" H 6808 3958 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 3867 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 3970 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 6315 3970 50  0001 C CNN
 F 3 "" H 6315 3970 50  0001 C CNN
 	1    6650 3900
 	1    0    0    -1  
@@ -412,7 +413,7 @@ U 1 1 5CAC9274
 P 1500 5200
 F 0 "U4" H 1125 4777 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 4686 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 5270 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 1165 5270 50  0001 C CNN
 F 3 "" H 1165 5270 50  0001 C CNN
 	1    1500 5200
 	1    0    0    -1  
@@ -423,7 +424,7 @@ U 1 1 5CAC927A
 P 3100 5200
 F 0 "U9" H 3258 5258 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 5167 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 5270 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 2765 5270 50  0001 C CNN
 F 3 "" H 2765 5270 50  0001 C CNN
 	1    3100 5200
 	1    0    0    -1  
@@ -434,7 +435,7 @@ U 1 1 5CAC9280
 P 4850 5200
 F 0 "U14" H 5008 5258 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 5167 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 5270 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 4515 5270 50  0001 C CNN
 F 3 "" H 4515 5270 50  0001 C CNN
 	1    4850 5200
 	1    0    0    -1  
@@ -445,7 +446,7 @@ U 1 1 5CAC9286
 P 6650 5250
 F 0 "U19" H 6808 5308 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 5217 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 5320 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 6315 5320 50  0001 C CNN
 F 3 "" H 6315 5320 50  0001 C CNN
 	1    6650 5250
 	1    0    0    -1  
@@ -545,7 +546,7 @@ U 1 1 5CACF3B2
 P 1500 6500
 F 0 "U5" H 1125 6077 50  0000 C CNN
 F 1 "Kailhlowprofile" H 1125 5986 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 1165 6570 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 1165 6570 50  0001 C CNN
 F 3 "" H 1165 6570 50  0001 C CNN
 	1    1500 6500
 	1    0    0    -1  
@@ -556,7 +557,7 @@ U 1 1 5CACF3B8
 P 3100 6500
 F 0 "U10" H 3258 6558 50  0000 L CNN
 F 1 "Kailhlowprofile" H 3258 6467 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 2765 6570 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 2765 6570 50  0001 C CNN
 F 3 "" H 2765 6570 50  0001 C CNN
 	1    3100 6500
 	1    0    0    -1  
@@ -567,7 +568,7 @@ U 1 1 5CACF3BE
 P 4850 6500
 F 0 "U15" H 5008 6558 50  0000 L CNN
 F 1 "Kailhlowprofile" H 5008 6467 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 4515 6570 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 4515 6570 50  0001 C CNN
 F 3 "" H 4515 6570 50  0001 C CNN
 	1    4850 6500
 	1    0    0    -1  
@@ -578,7 +579,7 @@ U 1 1 5CACF3C4
 P 6650 6550
 F 0 "U20" H 6808 6608 50  0000 L CNN
 F 1 "Kailhlowprofile" H 6808 6517 50  0000 L CNN
-F 2 "keyswitches:Kailh_socket_optional_reversible" H 6315 6620 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-No-Clickhole" H 6315 6620 50  0001 C CNN
 F 3 "" H 6315 6620 50  0001 C CNN
 	1    6650 6550
 	1    0    0    -1  
