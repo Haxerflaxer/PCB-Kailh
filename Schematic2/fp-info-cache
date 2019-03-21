@@ -1,4 +1,4 @@
-16443340099079442
+16446433311661824
 1N4148
 DIOAD829W49L456D191
 
@@ -12,7 +12,14 @@ ALPS-Slider
 
 0
 8
-8
+7
+ARDUINO_MICRO
+ARDUINO_MICRO
+Footprint for representing an Arduino Micro board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle
+
+0
+45
+45
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48320,6 +48327,13 @@ Kailh-PG1350-1u-No-Clickhole
 0
 4
 4
+Keebio-Parts
+Kailh-PG1350-1u-No-Clickhole-No-LED
+
+
+0
+2
+2
 Keebio-Parts
 Kailh-PG1350-1u-reversible
 
