@@ -413,8 +413,6 @@ $EndComp
 Text GLabel 10500 2650 2    50   Input ~ 0
 S3
 Wire Wire Line
-	8850 2650 8950 2650
-Wire Wire Line
 	8850 2750 8950 2750
 Wire Wire Line
 	8950 2750 8950 2700
@@ -426,7 +424,7 @@ Wire Wire Line
 	10200 900  10000 900 
 Text GLabel 8550 2750 0    50   Input ~ 0
 S2
-Text GLabel 8550 2650 0    50   Input ~ 0
+Text GLabel 8300 2650 0    50   Input ~ 0
 S1
 Text GLabel 10200 1200 2    50   Input ~ 0
 S2
@@ -518,7 +516,7 @@ Connection ~ 10000 4500
 Wire Wire Line
 	10000 4500 10150 4500
 Wire Wire Line
-	10000 4800 10150 4800
+	10000 4800 10100 4800
 Text GLabel 10800 900  2    50   Input ~ 0
 SwEnGND
 Wire Wire Line
@@ -527,8 +525,6 @@ Wire Wire Line
 	10800 950  10750 950 
 Wire Wire Line
 	10000 950  10000 900 
-Text GLabel 10800 700  2    50   Input ~ 0
-EnGNDC1
 Text GLabel 8650 4350 0    50   Input ~ 0
 EnGNDC1
 Wire Wire Line
@@ -917,12 +913,12 @@ $EndComp
 $Comp
 L Diode:1N4448WS DI7
 U 1 1 5CAA900B
-P 8700 2650
-F 0 "DI7" H 8700 2867 50  0000 C CNN
-F 1 "1N4448WS" H 8700 2776 50  0000 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8700 2475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/81387/1n4448ws.pdf" H 8700 2650 50  0001 C CNN
-	1    8700 2650
+P 8450 2650
+F 0 "DI7" H 8450 2867 50  0000 C CNN
+F 1 "1N4448WS" H 8450 2776 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8450 2475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/81387/1n4448ws.pdf" H 8450 2650 50  0001 C CNN
+	1    8450 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -953,8 +949,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 4250 9250 4300
 Wire Wire Line
-	9100 4400 9300 4400
-Wire Wire Line
 	9100 4550 9250 4550
 Wire Wire Line
 	9250 4550 9250 4500
@@ -965,4 +959,48 @@ Wire Wire Line
 Connection ~ 10750 950 
 Wire Wire Line
 	10750 950  10000 950 
+Text GLabel 10800 700  2    50   Input ~ 0
+EnGNDC1
+Wire Wire Line
+	10100 4850 10100 4800
+Connection ~ 10100 4800
+Wire Wire Line
+	10100 4800 10150 4800
+Wire Wire Line
+	10100 4850 9200 4850
+Wire Wire Line
+	9200 4850 9200 4400
+Wire Wire Line
+	9100 4400 9200 4400
+Wire Wire Line
+	9200 4400 9300 4400
+Connection ~ 9200 4400
+Wire Wire Line
+	10450 3350 10450 3250
+Wire Wire Line
+	10450 3250 9200 3250
+Wire Wire Line
+	9200 3250 9200 4400
+Connection ~ 10450 3350
+Wire Wire Line
+	8600 2650 8700 2650
+Wire Wire Line
+	10150 4300 10150 2400
+Wire Wire Line
+	10150 2400 8800 2400
+Wire Wire Line
+	8800 2400 8800 2650
+Connection ~ 8800 2650
+Wire Wire Line
+	8800 2650 8950 2650
+Wire Wire Line
+	8950 3350 8950 2900
+Wire Wire Line
+	8950 2900 8700 2900
+Wire Wire Line
+	8700 2900 8700 2650
+Connection ~ 8950 3350
+Connection ~ 8700 2650
+Wire Wire Line
+	8700 2650 8800 2650
 $EndSCHEMATC
