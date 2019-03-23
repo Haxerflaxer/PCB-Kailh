@@ -13,4 +13,5 @@
   (lib (name WS2812B)(type KiCad)(uri ${KIPRJMOD}/WS2812B.pretty-master)(options "")(descr ""))
   (lib (name 1N4148)(type Legacy)(uri ${KIPRJMOD}/1n4148/mod/1N4148.mod)(options "")(descr ""))
   (lib (name alps_slider)(type KiCad)(uri ${KIPRJMOD}/alps_slider.pretty)(options "")(descr ""))
+  (lib (name Schematic2)(type KiCad)(uri C:/Users/Adam/Documents/GitHub/PCB-Kailh-Tut/Schematic2)(options "")(descr ""))
 )
